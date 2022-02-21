@@ -11,7 +11,7 @@ class TrainController extends Controller
     {
         $trains = Train::where('orario di partenza', '>', '2021/02/21')->get();
         $data = ['trains' => $trains];
-        return view('home', $data);
+        return view('trains.home', $data);
     }
 
     public function show(Train $train)

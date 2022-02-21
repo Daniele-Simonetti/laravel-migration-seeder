@@ -8,13 +8,13 @@ class Train extends Model
 {
     protected $fillable = [
         'azienda',
-        'stazione di partenza',
-        'stazione di arrivo',
-        'orario di partenza',
-        'orario di arrivo',
-        'codice treno',
-        'numero carrozze',
-        'in orario',
+        'stazione_di_partenza',
+        'stazione_di_arrivo',
+        'orario_di_partenza',
+        'orario_di_arrivo',
+        'codice_treno',
+        'numero_carrozze',
+        'in_orario',
         'cancellato'
     ];
 
