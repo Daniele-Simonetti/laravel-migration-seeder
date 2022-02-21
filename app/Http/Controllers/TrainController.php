@@ -9,13 +9,13 @@ class TrainController extends Controller
 {
     public function index()
     {
-        $trains = Train::where('data', '>', '2022/02/18');
+        $trains = Train::where('orario di partenza', '>', '2021/02/21')->get();
         $data = ['trains' => $trains];
         return view('home', $data);
     }
 
     public function show(Train $train)
     {
-
+        return view('trains.show', compact('train'));
     }
 }
