@@ -20,7 +20,7 @@ class TrainSeeder extends Seeder
             '2022/02/22 8:30:00'
         ];
 
-        for ($i = 0; $i < 10; $i++) {
+        for ($i = 0; $i < 50; $i++) {
             $train = new Train();
             $train->azienda = $faker->word();
             $train->stazione_di_partenza = $faker->word();
