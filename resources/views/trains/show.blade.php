@@ -10,10 +10,10 @@
   <div class="row">
       <div class="col">
         <div class="card mb-3">
-          <div class="card-body">
+          <div class="card-body text-center">
             <h1 class="card-title">{{ $train->azienda }}</h1>
             <p class="card-text">{{ $train->stazione_di_partenza }}</p>
-            <p class="card-text">{{ $train->arrivo }}</p>
+            <p class="card-text">{{ $train->stazione_di_arrivo }}</p>
           </div>
         </div>
       </div>
